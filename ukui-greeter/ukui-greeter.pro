@@ -84,7 +84,8 @@ TRANSLATIONS += translations/zh_CN.ts \
                 translations/fr.ts \
                 translations/pt.ts \
                 translations/tr.ts \
-                translations/es.ts
+                translations/es.ts \
+                translations/ko.ts
 
 system("lrelease translations/*.ts")
 
