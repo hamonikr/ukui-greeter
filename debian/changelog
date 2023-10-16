@@ -1,3 +1,10 @@
+ukui-greeter (3.0.3-2+hamonikr) stable; urgency=medium
+
+  * Release for HamoniKR OS
+   - Changed default background image
+
+  -- HamoniKR <pkg@hamonikr.org>  Mon, 16 Oct 2023 16:15:43 +0900
+
 ukui-greeter (3.0.3-1+hamonikr) stable; urgency=medium
 
   * Release for HamoniKR OS

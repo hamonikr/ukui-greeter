@@ -213,5 +213,5 @@ QString Configuration::getDefaultBackgroundName()
     else 
         return "/usr/share/backgrounds/warty-final-ubuntukylin.jpg";	
 */
-    return "/usr/share/backgrounds/warty-final-ubuntukylin.jpg";
+    return "/usr/share/backgrounds/hamonikr/default_background.jpg";
 }
