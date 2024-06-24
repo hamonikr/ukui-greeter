@@ -19,7 +19,7 @@
 
 #include "giodbus.h"
 #include <gio/gio.h>
-#include <gio-unix-2.0/gio/gunixfdlist.h>
+#include <gio/gunixfdlist.h>
 #include <glib.h>
 
 int get_server_gvariant_stdout (int drvid)
