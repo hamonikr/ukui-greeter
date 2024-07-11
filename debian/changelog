@@ -1,3 +1,10 @@
+ukui-greeter (3.0.3.3+hamonikr2) stable; urgency=high
+
+  * Release for bookworm arm64
+   - No changes
+   
+  -- HamoniKR <pkg@hamonikr.org>  Fri, 12 Jul 2024 02:44:25 +0900
+
 ukui-greeter (3.0.3.3+hamonikr1) noble; urgency=high
 
   * Release on ubuntu 24.04
