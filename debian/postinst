@@ -1,0 +1,29 @@
+#!/bin/sh
+# postinst script
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    configure)
+
+        if [ -f "/etc/hamonikr/info" ] && [ -f "/etc/lightdm/lightdm.conf" ] ; then
+            # enable manual login
+            sed -i 's/#greeter-show-manual-login=.*$/greeter-show-manual-login=true/g' /etc/lightdm/lightdm.conf
+            sed -i 's/greeter-show-manual-login=.*$/greeter-show-manual-login=true/g' /etc/lightdm/lightdm.conf
+        fi
+        
+    ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+
+    ;;
+    triggered)
+
+    ;;
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0
